@@ -1,4 +1,7 @@
 #!/bin/sh
+
+# TODO: check if rsync is installed
+
 read -p 'Remote username: ' REMOTE_USERNAME
 read -p 'Remote ip: ' REMOTE_IP
 
