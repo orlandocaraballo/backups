@@ -1,0 +1,2 @@
+#!/bin/bash
+/usr/bin/rsync -a --delete --quiet -e ssh --exclude 'Dropbox' --exclude '.*' /home/[local-username]/ [remote-username]@[remote-ip]:/home/rsync/backups/[local-hostname]
